@@ -1,0 +1,147 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family:Roboto;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    padding: 32px;
+    background-color: #1f2937;
+    justify-content: space-between;
+    gap: 10px;
+}
+.hlogo{
+    font-size: 24px;
+    color: #F9FAF8;
+    flex: 3;
+}
+.right-links{
+    justify-self: flex-end;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero{
+    padding: 50px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 150px;
+    background-color: #1f2937;
+}
+.htext{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.imgplaceholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 200px;
+    width: 500px;
+    border-radius: 12px;
+}
+.htitle{
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+    text-align: center;
+}
+.hsubtext{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+}
+
+.randominf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.randomtitle{
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+.cuadros, .txtcuadros{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.cuadro {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+}
+.txtcuadro{width: 200px;
+    height: 200px;
+text-align: center;}
+
+a {
+    all: unset;
+}
+.hbutton, .but {
+    background-color: #3882F6;
+    width: 50px;
+    padding: 15px;
+    border-radius: 12px;
+    flex-grow: 0;
+    align-self: center;
+}
+
+.quotesection{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    flex-direction: column;
+    gap: 10px;
+}
+.quote{
+    font-size: 36px;
+    font-family: 'light italic';
+    color: #1f2937;
+}
+.quoteauth{
+    align-self: flex-end;
+    font-weight: 900;
+}
+.call {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.callsquare {
+    padding: 75px;
+    border-radius: 12px;
+    display: flex;
+    gap: 25px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+.squaretitle{
+    font-weight: 900;
+    font-size: 22px;
+}
+.callbutton{
+    margin-top: 20px;
+}
+.but{
+    border: 1px solid white;
+}
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #E5E7EB;
+}
